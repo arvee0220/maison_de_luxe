@@ -20,6 +20,7 @@ import award05 from "../assets/award05.png";
 import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import maison from "../assets/maison.png";
+import steak from "../assets/Steak.png";
 
 export default {
 	bg,
@@ -44,4 +45,5 @@ export default {
 	sign,
 	quote,
 	maison,
+	steak,
 };
