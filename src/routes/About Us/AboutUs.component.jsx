@@ -12,12 +12,10 @@ const AboutUs = () => {
 					<h1 className="headtext__bodoni">About Us</h1>
 					<img src={images.spoon} alt="about_spoon" className="spoon_img" />
 					<p className="p__opensans">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque saepe
-						laudantium iste amet laborum! Odit doloribus distinctio nisi magnam quod
-						nulla iste officia enim quidem provident animi aperiam sunt a reprehenderit
-						itaque aut architecto eveniet explicabo veniam temporibus at, laboriosam
-						placeat corrupti. Dolore veniam vero reprehenderit, quibusdam dicta iste
-						totam.
+						Welcome to Maison De Luxe, where culinary artistry meets an exceptional
+						dining experience. Nestled in the heart of BGC, our restaurant offers a
+						haven for food enthusiasts seeking exquisite flavors, impeccable service,
+						and an ambiance of refined elegance..
 					</p>
 					<button type="button" className="custom__button">
 						Know More
@@ -32,12 +30,10 @@ const AboutUs = () => {
 					<h1 className="headtext__bodoni">History</h1>
 					<img src={images.spoon} alt="about_spoon" className="spoon_img" />
 					<p className="p__opensans">
-						Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque saepe
-						laudantium iste amet laborum! Odit doloribus distinctio nisi magnam quod
-						nulla iste officia enim quidem provident animi aperiam sunt a reprehenderit
-						itaque aut architecto eveniet explicabo veniam temporibus at, laboriosam
-						placeat corrupti. Dolore veniam vero reprehenderit, quibusdam dicta iste
-						totam.
+						The story of Maison De Luxe began in 2010, when Jacques Dupont, a passionate
+						culinary visionary, embarked on a journey to create a dining destination
+						unlike any other. Nestled in the charming town of BGC, our restaurant opened
+						its doors with a mission to redefine the fine dining experience.
 					</p>
 					<button type="button" className="custom__button">
 						Know More
