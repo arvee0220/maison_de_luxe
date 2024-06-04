@@ -1,0 +1,8 @@
+.app__aboutus {
+	position: relative;
+
+	&-overlay {
+		position: absolute;
+		inset: 0;
+	}
+}
