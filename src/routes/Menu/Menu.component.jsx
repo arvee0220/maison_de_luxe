@@ -11,7 +11,7 @@ const Menu = () => {
 				<h1 className="headtext__cormorant">Today&apos;s Special</h1>
 			</div>
 
-			<div className="app_specialMenu-menu">
+			<div className="app__specialMenu-menu">
 				<div className="app__specialMenu-menu_wines  flex__center">
 					<p className="app__specialMenu-menu_heading">Wine & Beer</p>
 					<div className="app__specialMenu-menu_items">
