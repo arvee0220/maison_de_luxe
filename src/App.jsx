@@ -5,6 +5,7 @@ import Navigation from "./routes/Navigation/Navigation.component";
 import Menu from "./routes/Menu/Menu.component";
 import Chef from "./routes/Chef/Chef.component";
 import Intro from "./routes/Intro/Intro.component";
+import Laurels from "./routes/Laurels/Laurels.component";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Menu />
 			<Chef />
 			<Intro />
+			<Laurels />
 		</>
 	);
 };
