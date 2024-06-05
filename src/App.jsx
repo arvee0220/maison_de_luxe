@@ -4,6 +4,7 @@ import Header from "./routes/Header/Header.component";
 import Navigation from "./routes/Navigation/Navigation.component";
 import Menu from "./routes/Menu/Menu.component";
 import Chef from "./routes/Chef/Chef.component";
+import Intro from "./routes/Intro/Intro.component";
 
 const App = () => {
 	return (
@@ -12,7 +13,8 @@ const App = () => {
 			<Header />
 			<AboutUs />
 			<Menu />
-			<Chef/>
+			<Chef />
+			<Intro />
 		</>
 	);
 };
