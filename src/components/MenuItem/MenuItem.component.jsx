@@ -1,3 +1,5 @@
+import "./MenuItem.styles.scss";
+
 const MenuItem = ({ title, price, tags }) => {
 	return (
 		<div className="app__menuitem">
@@ -10,7 +12,7 @@ const MenuItem = ({ title, price, tags }) => {
 
 				<div className="app__menuitem-dash" />
 
-				<div className="app__menuitem-name">
+				<div className="app__menuitem-price">
 					<p className="p__bodoni">{price}</p>
 				</div>
 			</div>
