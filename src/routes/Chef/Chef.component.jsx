@@ -17,9 +17,9 @@ const Chef = () => {
 					<div className="app__chef-content_quote">
 						<img src={images.quote} alt="quote" />
 						<p className="p__opensans">
-							At our fine dining classic French restaurant, we believe in the art of
-							culinary excellence, where every dish is crafted with the finest
-							ingredients and meticulous attention to detail.
+							At Maison De Luxe, we believe in the art of culinary excellence, where
+							every dish is crafted with the finest ingredients and meticulous
+							attention to detail.
 						</p>
 					</div>
 					<p className="p__opensans">
