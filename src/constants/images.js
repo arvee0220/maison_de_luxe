@@ -21,6 +21,7 @@ import sign from "../assets/sign.png";
 import quote from "../assets/quote.png";
 import maison from "../assets/maison.png";
 import steak from "../assets/Steak.png";
+import loc from "../assets/MaisonLoc.png";
 
 export default {
 	bg,
@@ -37,6 +38,7 @@ export default {
 	spoon,
 	welcome,
 	findus,
+	loc,
 	laurels,
 	award01,
 	award02,
