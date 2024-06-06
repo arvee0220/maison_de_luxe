@@ -1,11 +1,11 @@
 import "./App.css";
-import AboutUs from "./routes/About Us/AboutUs.component";
-import Header from "./routes/Header/Header.component";
-import Navigation from "./routes/Navigation/Navigation.component";
-import Menu from "./routes/Menu/Menu.component";
-import Chef from "./routes/Chef/Chef.component";
-import Intro from "./routes/Intro/Intro.component";
-import Laurels from "./routes/Laurels/Laurels.component";
+import AboutUs from "./containers/About Us/AboutUs.component";
+import Header from "./containers/Header/Header.component";
+import Navigation from "./containers/Navigation/Navigation.component";
+import Menu from "./containers/Menu/Menu.component";
+import Chef from "./containers/Chef/Chef.component";
+import Intro from "./containers/Intro/Intro.component";
+import Laurels from "./containers/Laurels/Laurels.component";
 
 const App = () => {
 	return (
