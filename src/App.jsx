@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import AboutUs from "./containers/About Us/AboutUs.component";
 import Header from "./containers/Header/Header.component";
 import Navigation from "./containers/Navigation/Navigation.component";
