@@ -8,6 +8,7 @@ import Intro from "./containers/Intro/Intro.component";
 import Laurels from "./containers/Laurels/Laurels.component";
 import Gallery from "./containers/Gallery/Gallery.component";
 import FindUs from "./containers/FindUs/FindUs.component";
+import Footer from "./containers/Footer/Footer.component";
 
 const App = () => {
 	return (
@@ -21,6 +22,7 @@ const App = () => {
 			<Laurels />
 			<Gallery />
 			<FindUs />
+			<Footer />
 		</>
 	);
 };

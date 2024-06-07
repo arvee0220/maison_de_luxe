@@ -25,8 +25,9 @@ const Gallery = () => {
 				<SubHeading title="Instagram" />
 				<h1 className="headtext__bodoni">Photo Gallery</h1>
 				<p className="p__opensans" style={{ color: "#AAA", marginTop: "2rem" }}>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum inventore
-					optio aspernatur quibusdam expedita, omnis sunt ad qui nam illo!
+					Discover the exquisite culinary creations served at Maison De Luxe. Our photo
+					gallery offers a glimpse into the artistry and passion behind each dish. Bon
+					appétit!
 				</p>
 				<button type="button" className="custom__button">
 					View More
