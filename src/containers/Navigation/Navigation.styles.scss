@@ -3,9 +3,11 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background: var(--color-black);
+	background: rgba(12, 12, 12, 0.8);
 	padding: 1rem 2rem;
 	color: var(--color-white);
+	position: fixed;
+	z-index: 10;
 
 	&-logo {
 		display: flex;
