@@ -46,31 +46,13 @@ const Navbar = () => {
 							onClick={() => setToggleMenu(false)}
 						/>
 						<ul className="app__navbar-smallscreen_links">
-							<li>
-								<a href="#home" onClick={() => setToggleMenu(false)}>
-									Home
-								</a>
-							</li>
-							<li>
-								<a href="#about" onClick={() => setToggleMenu(false)}>
-									About
-								</a>
-							</li>
-							<li>
-								<a href="#menu" onClick={() => setToggleMenu(false)}>
-									Menu
-								</a>
-							</li>
-							<li>
-								<a href="#awards" onClick={() => setToggleMenu(false)}>
-									Awards
-								</a>
-							</li>
-							<li>
-								<a href="#contact" onClick={() => setToggleMenu(false)}>
-									Contact
-								</a>
-							</li>
+							{navLinks.map((link, index) => (
+								<li key={index}>
+									<a href={link.href} onClick={() => setToggleMenu(false)}>
+										{link.text}
+									</a>
+								</li>
+							))}
 						</ul>
 					</div>
 				)}
